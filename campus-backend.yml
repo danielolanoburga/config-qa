@@ -14,7 +14,7 @@ spring:
     fromIP: campus.joedayz.pe
 
   datasource:
-    url: jdbc:mysql://localhost/api?useSSL=false
+    url: jdbc:mysql://localhost:3306/api?useSSL=false
     #url: jdbc:mysql://localhost/api?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC&useSSL=false
     username: root
     #password: joedayz
