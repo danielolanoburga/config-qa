@@ -3,7 +3,7 @@ server:
 
 
 spring:
-  profiles: default2
+  profiles: default
 
   mail:
     host: smtp.gmail.com
