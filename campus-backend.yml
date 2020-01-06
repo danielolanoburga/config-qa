@@ -16,7 +16,7 @@ spring:
   datasource:
     #url: jdbc:mysql://127.0.0.1:3306/api?useSSL=false&useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull&serverTimezone=GMT
     #url: jdbc:mysql://localhost/api?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC&useSSL=false
-    url: jdbc:mysql://localhost/api?useSSL=false
+    url: jdbc:mysql://localhost/api?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC&useSSL=false
     username: root
     #password: joedayz
     password: admin
